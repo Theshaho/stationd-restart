@@ -1,6 +1,6 @@
 # Stationd-Restart
 
-A python code that monitors Stationd service on ubuntu and sends it on telegram
+A python code that restarts Stationd service on ubuntu and sends it on telegram
 
 first of all, create a bot on Telegram using botFather and then write bot token in tg.py as Token variable
 
