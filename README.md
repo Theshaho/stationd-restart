@@ -30,7 +30,7 @@ nano tg.py
 Ctrl+X / Y / Enter
 ### Run script
 ```
-screen -S restart-station
+screen -S stationd-restart
 ```
 ```
 python3 restart.py
