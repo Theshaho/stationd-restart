@@ -12,7 +12,7 @@ def monitor_stationd():
     except:
       output = "failed"
       
-    message = f"On {vpsname} Stationd log is:{output}\n"
+    message = f"On {vpsname} Stationd restart log is:{output}"
 
     url = f"https://api.telegram.org/bot{tg.TOKEN}/sendMessage?chat_id={tg.chat_id}&text={message}"
 
